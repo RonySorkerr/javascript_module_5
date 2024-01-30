@@ -7,3 +7,10 @@ const name = 'MD.Rony Sorker';
 console.log(name);
 console.log(name.length);
 console.log(name[3]); // we can find the index of an string with this method.
+
+// NOTES
+/**
+ * STRING IS UNMUTABLE 
+ * ARRAY IS MUTABLE 
+ * IT MEANS YOU CAN CHANGE AN ARRAY BUT NOT A STRING.
+ */
