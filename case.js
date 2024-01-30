@@ -27,6 +27,7 @@ else{
 
 const email = 'youremailHerE';
 const cave = 'YouremailheRe';
+// if we make all the strings in lowerCase we can get the same result if the words are even not same.
 
 if(email.toLowerCase() === cave.toLowerCase()){
     console.log('You are looged in');
@@ -34,3 +35,11 @@ if(email.toLowerCase() === cave.toLowerCase()){
 else{
     console.log('You do not belong here');
 }
+
+// we can trim or remove the white space from a string>>>>>>>
+// const country = 'Bang ladesh'; // it will not work here, cause it only works before and after
+const country = 'Bangladesh   ';
+console.log(country.length); // it is 13 characters in length
+countryy = country.trim();
+console.log(countryy.length); // and it is 10 characters in length.
+console.log(country.trim());
