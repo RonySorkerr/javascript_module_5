@@ -24,3 +24,13 @@ if(fileName === look){
 else{
     console.log('your file is not here');
 }
+
+const email = 'youremailHerE';
+const cave = 'YouremailheRe';
+
+if(email.toLowerCase() === cave.toLowerCase()){
+    console.log('You are looged in');
+}
+else{
+    console.log('You do not belong here');
+}
