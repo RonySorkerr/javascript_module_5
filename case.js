@@ -43,3 +43,15 @@ console.log(country.length); // it is 13 characters in length
 countryy = country.trim();
 console.log(countryy.length); // and it is 10 characters in length.
 console.log(country.trim());
+
+// making a condition on casing
+
+const processor = 'amd';
+const search = 'AmD '
+// in this case we have to either make them both uppercase or lowercase.
+if(processor.toLowerCase().trim() === search.toLowerCase().trim()){
+    console.log('you are lookign for amd processor ');
+}
+else{
+    console.log('you are in wrong place:');
+}
