@@ -12,8 +12,8 @@ for (n = 1; n <= 30; n++) {
     }
 }
 
-for(let m = 0; m<= 50; m++){
-    if(m%3===0 || m%5===0){
-        console.log('your ams are : ' , m);
+for (let m = 0; m <= 50; m++) {
+    if (m % 3 === 0 || m % 5 === 0) {
+        console.log('your ams are : ', m);
     }
 }
