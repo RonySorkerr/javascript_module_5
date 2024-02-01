@@ -9,4 +9,6 @@ let student = {
 }
 
 student.age = 25; // we can change the value from a object ..
-console.log(student['age'])
+student['goodstudent'] = false; // we can change the value from a object ..
+console.log(student['age']);
+console.log(student);
