@@ -7,6 +7,6 @@ let student = {
     goodStudent: true,
     favGames: ['Cricket', 'footabll', 'bollyball']
 }
-// console.log(typeof(student));
-console.log(student.age); //dot notation. we can find the result with . notation
-console.log(student['name']); //bracket notation.
+
+student.age = 25; // we can change the value from a object ..
+console.log(student['age'])
